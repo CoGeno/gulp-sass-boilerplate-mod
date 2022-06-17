@@ -1,0 +1,22 @@
+/* want to load all 'util' files as a sass module */
+@use "../util" as u; // .. goes one lvl up out of globals to scss folder
+
+// reset rules which overrite browser styles
+// 100% match default font size of browser - 16px
+//padding won't add to final width
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+// * - selects every element
+*,
+*::before,
+*::after {
+  box-sizing: inherit; //inherits html box-sizing value
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

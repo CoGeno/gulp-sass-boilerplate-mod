@@ -1,0 +1,29 @@
+{
+  "name": "gulp-sass-boilerplate-mod",
+  "version": "1.0.0",
+  "description": "Tweaked front-end workflow for Sass based on Coder Coder's gulp-sass-boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CoGeno",
+  "license": "ISC",
+  "Dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "autoprefixer": "^10.4.7",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.11",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.52.3",
+    "gulp-rename": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
