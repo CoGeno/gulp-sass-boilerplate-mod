@@ -2,10 +2,7 @@
   "name": "gulp-sass-boilerplate-mod",
   "version": "1.0.0",
   "description": "Tweaked front-end workflow for Sass based on Coder Coder's gulp-sass-boilerplate.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [],
   "author": "CoGeno",
   "license": "ISC",
   "Dependencies": {
