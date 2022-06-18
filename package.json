@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "CoGeno",
   "license": "ISC",
-  "Dependencies": {
+  "dependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "autoprefixer": "^10.4.7",
@@ -19,8 +19,5 @@
     "postcss": "^8.4.14",
     "sass": "^1.52.3",
     "gulp-rename": "^2.0.0"
-  },
-  "dependencies": {
-    "glob-parent": "^6.0.2"
   }
 }
