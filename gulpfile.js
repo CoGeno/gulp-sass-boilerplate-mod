@@ -4,9 +4,9 @@ const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const cssnano = require("cssnano");
 const babel = require("gulp-babel");
+const concat = require("gulp-concat");
 const terser = require("gulp-terser");
 const browsersync = require("browser-sync").create();
-const rename = require("gulp-rename");
 
 // Sass Task
 function scssTask() {
@@ -18,10 +18,10 @@ function scssTask() {
 
 // JavaScript Task
 function jsTask() {
-  return src("app/js/script.js", { sourcemaps: true })
+  return src("app/js/*.js", { sourcemaps: true })
     .pipe(babel({ presets: ["@babel/preset-env"] }))
+    .pipe(concat("main.js"))
     .pipe(terser())
-    .pipe(rename("main.js"))
     .pipe(dest("dist/js", { sourcemaps: "." }));
 }
 
